@@ -14,6 +14,7 @@
 		C4620BC31E06544C00984277 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4620BC11E06544C00984277 /* LaunchScreen.storyboard */; };
 		C4620BCE1E06544C00984277 /* CustomTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4620BCD1E06544C00984277 /* CustomTableTests.swift */; };
 		C4620BD91E06544C00984277 /* CustomTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4620BD81E06544C00984277 /* CustomTableUITests.swift */; };
+		C4620BE71E0654CF00984277 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4620BE61E0654CF00984277 /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C4620BD41E06544C00984277 /* CustomTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4620BD81E06544C00984277 /* CustomTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableUITests.swift; sourceTree = "<group>"; };
 		C4620BDA1E06544C00984277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4620BE61E0654CF00984277 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				C4620BB81E06544C00984277 /* AppDelegate.swift */,
 				C4620BBA1E06544C00984277 /* ViewController.swift */,
+				C4620BE61E0654CF00984277 /* CustomCell.swift */,
 				C4620BBC1E06544C00984277 /* Main.storyboard */,
 				C4620BBF1E06544C00984277 /* Assets.xcassets */,
 				C4620BC11E06544C00984277 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4620BBB1E06544C00984277 /* ViewController.swift in Sources */,
+				C4620BE71E0654CF00984277 /* CustomCell.swift in Sources */,
 				C4620BB91E06544C00984277 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
